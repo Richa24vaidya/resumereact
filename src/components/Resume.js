@@ -161,11 +161,12 @@ const Resume = () => {
         Working Experience
       </Typography>
       <Box component="div" className={classes.timeLine}>
+
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2013
+          <span style={{ fontSize: "12px" }}>9.2024-11.2024</span>
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -173,27 +174,34 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            web design
+            Web Developer
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+             Winonics
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+             <Box className={classes.skillTagContainer}>
+    <Box className={classes.skillTag}>JavaScript</Box>
+    <Box className={classes.skillTag}>Jira</Box>
+    <Box className={classes.skillTag}>HTML5</Box>
+    <Box className={classes.skillTag}>CSS3</Box>
+    <Box className={classes.skillTag}>TypeScript</Box>
+     <Box className={classes.skillTag}>Php</Box>
+    <Box className={classes.skillTag}>WordPress</Box>
+    <Box className={classes.skillTag}>React.js</Box>
+     <Box className={classes.skillTag}>MongoDB</Box>
+  </Box>
           </Typography>
         </Box>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2014
+          <span style={{ fontSize: "12px" }}>6.2022-6.2024</span>
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -201,55 +209,33 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            html & css
+            Frontend Web Developer
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Devloops International
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
-          </Typography>
-        </Box>
-        <Typography
-          variant="h2"
-          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-        >
-          2015
-        </Typography>
-        <Box component="div" className={classes.timeLineItem}>
-          <Typography
-            variant="h5"
-            align="center"
-            className={classes.subHeading}
-          >
-            Fullstack Javascript
-          </Typography>
-          <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
-          </Typography>
-          <Typography
-            variant="subtitle1"
-            align="center"
-            className={classes.subtitle1}
-          >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+             <Box className={classes.skillTagContainer}>
+    <Box className={classes.skillTag}>HTML5</Box>
+    <Box className={classes.skillTag}>CSS3</Box>
+    <Box className={classes.skillTag}>JavaScript</Box>
+    <Box className={classes.skillTag}>Bootstrap</Box>
+    <Box className={classes.skillTag}>jQuery</Box>
+     <Box className={classes.skillTag}>Figma</Box>
+    <Box className={classes.skillTag}>WordPress</Box>
+    <Box className={classes.skillTag}>React.js</Box>
+  </Box>
           </Typography>
         </Box>
        <Typography
   variant="h2"
   className={`${classes.timeLineYear} ${classes.timeLineItem}`}
 >
-  <span style={{ fontSize: "12px" }}>6.2021-6.2022</span>
+  <span style={{ fontSize: "12px" }}>6.2021-5.2022</span>
 </Typography>
 
 <Box component="div" className={classes.timeLineItem}>
@@ -269,9 +255,9 @@ const Resume = () => {
     <Box className={classes.skillTag}>JavaScript</Box>
     <Box className={classes.skillTag}>Bootstrap</Box>
     <Box className={classes.skillTag}>jQuery</Box>
-    <Box className={classes.skillTag}>React.js</Box>
-    <Box className={classes.skillTag}>Git & GitHub</Box>
-    <Box className={classes.skillTag}>Responsive Design</Box>
+     <Box className={classes.skillTag}>php</Box>
+    <Box className={classes.skillTag}>MySql</Box>
+    <Box className={classes.skillTag}>Filament</Box>
   </Box>
 </Box>
 
