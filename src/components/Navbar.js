@@ -4,7 +4,7 @@ import Drawer from "@material-ui/core/Drawer";
 import Box from "@material-ui/core/Box";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
-import IconButton from "@material-ui/core/IconButton";
+// import IconButton from "@material-ui/core/IconButton";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
@@ -90,9 +90,9 @@ const Navbar = () => {
       <Box component="nav">
         <AppBar position="static" className={classes.appbar}>
           <Toolbar>
-            <IconButton onClick={() => setOpen(true)}>
+            {/* <IconButton onClick={() => setOpen(true)}>
               <ArrowBack className={classes.arrow} />
-            </IconButton>
+            </IconButton> */}
             <Typography variant="h5" className={classes.title}>
               Portfolio
             </Typography>
